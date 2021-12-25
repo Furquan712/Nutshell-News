@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import navnutshell from './Component/navnutshell';
+  import Navnutshell from "./Component/navnutshell.js";
+
 
 function App() {
   return (
     <div className="App">
-      <navnutshell></navnutshell>
+      <Navnutshell/>
+      
     </div>
   );
 }
